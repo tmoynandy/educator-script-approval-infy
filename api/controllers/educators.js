@@ -94,7 +94,7 @@ exports.educator_create_request = (req, res, next) =>{
         name : req.body.name,
         location : req.body.location,
         title : req.body.title,
-        script : req.body.script,
+        script : req.file.path
     });
 
     educator.save()

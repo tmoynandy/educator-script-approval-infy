@@ -16,6 +16,9 @@ db.once('open', function() {
   console.log('hahahah connected')
 });
 
+//make upload statically available
+app.use('/uploads', express.static('uploads'));
+
 // to avoid CORS - Cross Origin Resource Sharing - error, we send a suitable header
 app.use((req, res, next) =>{
     res.header('Access-Control-Allow-Origin', '*') //* means allows access to any websites or ports

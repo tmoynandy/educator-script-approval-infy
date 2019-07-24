@@ -105,11 +105,17 @@ To run the api, navigate to the cloned directory and type the following command
 > design team
 
    **Request Type :**  PATCH
-   
+
    **Request  :**
 
     [{"propName":"preprodstatus","value":"Done"}]
-preprodstatus - status after evaluation by 
+    
+preprodstatus - status after evaluation by pre-production team (on upload of script, preprodstatus : Waiting)
+
+prodstatus - status after evaluation by production team (on upload of script, prodstatus : Waiting)
+
+postprodstatus - status after evaluation by post-production team (on upload of script, postprodstatus : Waiting)
+
 **Response :**
 
     {

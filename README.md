@@ -17,11 +17,12 @@ To run the api, navigate to the cloned directory and type the following command
 > API endpoint for educators to submit script
 
    **Request Type :** POST
+
    **Request  :**
 
    ![enter image description here](https://lh3.googleusercontent.com/MVhXieIK8JRKD7g-am80kK4WDAjEr6BGfMqzzwGGQro7G2jyx-4F0IaxgN1H1_orfHk_32Tt9I0)
 
-   
+
    **Response :**
  
 
@@ -45,6 +46,7 @@ To run the api, navigate to the cloned directory and type the following command
 > For fetching all script approval requests made by ALL educators
 
 **Request Type :** GET
+
 **Response  :**
 
     {
@@ -78,6 +80,7 @@ To run the api, navigate to the cloned directory and type the following command
 > For fetching all the script approval requests made by a particular educator
 
 **Request Type :** GET
+
 **Response  :**
 
     {
@@ -102,6 +105,7 @@ To run the api, navigate to the cloned directory and type the following command
 > design team
 
    **Request Type :**  PATCH
+   
    **Request  :**
 
     [{"propName":"preprodstatus","value":"Done"}]

@@ -18,7 +18,10 @@ To run the api, navigate to the cloned directory and type the following command
 
    **Request Type :** POST
    **Request  :**
+
    ![enter image description here](https://lh3.googleusercontent.com/MVhXieIK8JRKD7g-am80kK4WDAjEr6BGfMqzzwGGQro7G2jyx-4F0IaxgN1H1_orfHk_32Tt9I0)
+
+   
    **Response :**
  
 
